@@ -1,0 +1,6 @@
+nama = input("Masukkan nama Anda: ")
+usia = int(input("Masukkan usia Anda: "))
+# print("halo,",nama,"usia anda adalah",usia,"tahun")
+# f-string atau format()
+print(f"Nama anda {nama} dan usia anda {usia} tahun")
+print("Nama anda {} dan usia anda {} tahun".format(nama,usia))
